@@ -3,9 +3,9 @@ from algorithms import *
 #############################################################################################
 
 dim = 2  # Dimension
-degree = 3  # maximal degree
+degree = 2  # maximal degree
 n = 1000  # sample size
-K = 10 ** dim  # number of cells
+K = 7 ** dim  # number of cells
 datadependent = False
 tolerance = 0.05
 
