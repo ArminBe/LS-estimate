@@ -237,7 +237,7 @@ aopt_armijo_4, a_history_armijo, time_history_armijo = gradient_descent_armijo(s
 print(f' after {iterations} iterations of the gradient descent with Armijo step size rule, the functional J takes the '
       f'value {functionalJ(aopt_armijo_4, B, storeY, n, K, deg_cell)}')
 
-y_values[3] = np.absolute(functionalJ(aopt_armijo_4, B, storeY, n, K, deg_cell) - minJ)/10
+y_values[3] = np.absolute(functionalJ(aopt_armijo_4, B, storeY, n, K, deg_cell) - minJ)
 
 
 plt.yscale('log')
